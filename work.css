@@ -1,0 +1,52 @@
+main {
+    margin-left: auto; /* 将 main 元素的左外边距设置为 auto，使其向右移动 */
+}
+
+body {
+    background-color: #F0F0F0; /* 白色背景 */
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-section img {
+    max-width: 300px;
+}
+
+.left-section {
+    display: flex; /* 將左側區域設置為彈性布局 */
+    align-items: center; /* 垂直居中 */
+    margin-right: 20px; /* 與右側元素的間距 */
+}
+
+.middle-section {
+    flex: 1;
+    text-align: center;
+}
+
+.right-section img {
+    max-width: 100px;
+}
+
+.payment-options {
+    text-align: left;
+}
+
+.payment-options h2 {
+    margin-bottom: 10px;
+}
+
+.payment-options button {
+    margin-right: 10px;
+}
+.container {
+    width: 85%; /* 设置父元素的宽度为屏幕宽度的 80% */
+}
+
+.right-section{
+    margin-left: 150px;
+}
+

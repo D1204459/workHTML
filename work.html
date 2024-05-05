@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOMO購物網</title>
+    <link rel="stylesheet" href="work.css">
+
+    <style>
+        header {
+            color: #e40580 !important;
+        text-align: center; /* 文字居中 */
+        margin-top: 20px; /* 與上方的間距 */
+            font-size: 55px;        //文字大小
+        }
+
+        .sub-heading{
+            color: rgba(101, 41, 57, 0.98); /* 文字顏色 */
+            text-align: center; /* 文字居中 */
+            margin-top: 20px; /* 與上方的間距 */
+            font-size: 30px; /* 文字大小 */
+            font-weight: bold; /* 文字加粗 */
+        }
+        p {
+            color: rgb(22, 50, 196) !important;
+            text-align: center; /* 文字居中 */
+            margin-top: 20px; /* 與上方的間距 */
+            font-size: 30px;        //文字大小
+        }
+        h2 {
+            color: rgb(22, 50, 196) !important;
+            text-align: center; /* 文字居中 */
+            margin-top: 20px; /* 與上方的間距 */
+            font-size: 30px;        //文字大小
+        }
+    </style>
+    <script src="work.js"></script>
+</head>
+
+<body>
+<header>MOMO購物網</header>
+<div class="sub-heading">商品尚未交易成功請重新交易</div>
+<div class="container">
+    <div class="left-section">
+    <!-- 左側圖片 -->
+    <img src="imgs/momo1.png" alt="左側圖片" style="max-width: 300px; position: absolute; top: 0;">
+</div>
+<main>
+    <section id="products">
+    <!-- 商品列表 -->
+    <div class="product">
+    <img src="imgs/MOMO鞋.webp" alt="Product 1" style="display: block; margin: 0 auto;">
+    <h2>NIKE</h2>
+    <p>慢跑鞋 運動鞋 休閒鞋</p>
+    <p>價格: $1160</p>
+</div>
+</section>
+</main>
+
+<div class="right-section">
+<!-- 付款方式選項 -->
+<div class="payment-options">
+<h3>選擇付款方式</h3>
+<button id="cash-on-delivery">到貨付款</button>
+<button id="credit-card">信用卡付款</button>
+<button id="bank-transfer">銀行轉帳</button>
+</div>
+</div>
+</div>
+<script src="work.js"></script>
+</body>
+</html>
